@@ -11,7 +11,10 @@ function addNums10Timing(increment) {
   console.time()
 
   while (count < 10){
+    //startTime = Date.now()
     array.push(addNums(num))
+    //endTime = Date.now()
+    //console.log(endTime-startTime)
     console.timeLog()
     num += increment
     count++
@@ -37,7 +40,10 @@ function addManyNums10Timing(increment) {
   console.time()
 
   while (count < 10){
+    //startTime = Date.now()
     array.push(addManyNums(num))
+    //endTime = Date.now()
+    //console.log(endTime-startTime)
     console.timeLog()
     num += increment
     count++
